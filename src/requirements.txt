@@ -5,7 +5,7 @@ certifi==2022.12.7.1
 chardet==3.0.4
 dj-database-url
 django-storages
-django==3.2.18
+django==4.2.27
 docutils==0.14
 gitdb2==2.0.3
 gitpython==3.1.30
@@ -24,5 +24,6 @@ setuptools==65.5.1
 six==1.11.0
 smmap2==2.0.3
 stripe
-urllib3>=1.23
+urllib3>=2.6.0
 wheel==0.38.0
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
